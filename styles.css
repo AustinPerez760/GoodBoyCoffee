@@ -3,6 +3,13 @@ body {
   background-color: #b1b695;
 }
 
+/* NAV ITEMS */
+.nav-link {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: white;
+}
+
 .container {
   border: 2px solid white;
   display: flex;
