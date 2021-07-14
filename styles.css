@@ -7,6 +7,7 @@ body {
   border: 2px solid white;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .main {
@@ -27,4 +28,12 @@ body {
   height: 320px;
   background: white;
   margin: 8px;
+}
+
+.intro {
+  background-color: tan;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  color: #fce7c3;
+  width: 500px;
 }
