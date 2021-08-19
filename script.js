@@ -79,17 +79,41 @@
 // Divisible by both 3 and 5 => FizzBuzz
 // Not Divisible by 3 or 5 => input
 
-const output = fizzBuzz(15);
-console.log(output);
+// const output = fizzBuzz(7);
+// console.log(output);
 
-function fizzBuzz(input) {
-  if (typeof input !== "number") return "Not a number";
+// function fizzBuzz(input) {
+//   if (typeof input !== "number") return "Not a number";
 
-  if (input % 3 === 0 && input % 5 === 0) return "FizzBuzz";
+//   if (input % 3 === 0 && input % 5 === 0) return "FizzBuzz";
 
-  if (input % 3 === 0) return "Fizz";
+//   if (input % 3 === 0) return "Fizz";
 
-  if (input % 5 === 0) return "Buzz";
+//   if (input % 5 === 0) return "Buzz";
 
-  return input;
-}
+//   return input;
+// }
+
+// EVEN AND ODD NUMBERS
+
+// showNumbers(10);
+
+// function showNumbers(limit) {
+//   for (let i = 0; i <= limit; i++) {
+//     if (i % 2 === 0) console.log(i, "EVEN");
+//     else console.log(i, "ODD");
+//   }
+// }
+
+// STARS EXCERCISE
+
+// showStars(5);
+
+// function showStars(rows) {
+//   for (let row = 1; row <= rows; row++) {
+//     let pattern = "";
+//     for (let i = 0; i < row; i++) pattern += "*";
+
+//     console.log(pattern);
+//   }
+// }
